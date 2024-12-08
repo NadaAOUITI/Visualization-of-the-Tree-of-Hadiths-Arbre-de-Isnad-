@@ -95,6 +95,9 @@ In Islamic studies, tracing and analyzing the chains of narration (isnad) is cru
 - Run `graphen.py`.
 - Nodes and edges will automatically be positioned and labeled.
 
+  ![Python](https://img.shields.io/badge/python-3.8-blue)
+
+
 ## Technologies Used
 - **Programming Language**: Python 3
 - **Libraries**: `pandas`, `NetworkX`, `matplotlib`, `arabic_reshaper`, `bidi`
