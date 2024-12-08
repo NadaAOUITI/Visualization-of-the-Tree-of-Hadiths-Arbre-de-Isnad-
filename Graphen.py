@@ -7,7 +7,6 @@ from Narrateur import Narrateur, narrateurs
 from Arbredeisnedv2 import chains  
 from collections import deque
 #Ceci est le fichier main à exécuter .
-#J'ai inlcus les fichiers xlsx parceque je l'ai modifié (la méthode de diacritisation d'un meme nom etc)
  #Méthode de re-ing : Donner un niveau à chaque noeud.
         #Pour chaque nœud, la position horizontale est déterminée par le nombre de nœuds déjà sur ce niveau. La position verticale est simplement le niveau négatif du nœud pour créer un agencement de haut en bas.
         #x le niveau 0  
@@ -153,8 +152,4 @@ graphe.inserer_chaines_dans_graphe(chains, graphe, root_node)
 graphe.visualiser_graphe()
 plt.show()
 
-        #yaati niveau lchaque noeud
-        #Pour chaque nœud, la position horizontale est déterminée par le nombre de nœuds déjà sur ce niveau. La position verticale est simplement le niveau négatif du nœud pour créer un agencement de haut en bas.
-        #x le niveau 0  
-        #tous les neouds de niveau 1 ont x=1 
-        #tous les noeuds de niveau 2 ont x=2 et y=-2
+  
