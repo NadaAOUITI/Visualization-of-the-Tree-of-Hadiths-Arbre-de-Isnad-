@@ -20,7 +20,12 @@ Interactive visualization of the isnad chain in the Hadith collection to explore
 9. [Technologies Used](#technologies-used)
 
 ---
+##Project Architecture
+The project's architecture is based on a graph-based model, where nodes represent narrators, and directed edges signify connections in the isnad chains. Key design components include:
 
+Adjacency List Implementation: Efficiently stores narrators and their relationships in a Python dictionary, where keys are narrators, and values are lists of connected narrators.
+Hierarchical Node Positioning: Node layers are computed using Breadth-First Search (BFS), placing the root narrators at the top and their successors in subsequent layers.
+Validation Mechanisms: Temporal connections between narrators are validated based on criteria like death-date proximity.
 ## Project Objective
 Create an interactive tool to model, manage, and visualize the chains of narration (isnad) of Hadiths, based on optimized data structures.
 
